@@ -73,6 +73,7 @@
 	neofetch
 	tmux
 	steam
+	eww-wayland
     ];
   };
 
