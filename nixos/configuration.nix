@@ -74,8 +74,31 @@
 	tmux
 	steam
 	eww-wayland
+	unzip
+	xclip
+	networkmanager
+	socat
+	jq
+	acpi
+	inotify-tools
+	bluez
+	pavucontrol
+	brightnessctl
+	playerctl
+	gjs
+	upower
+	gtk3
+	wl-gammactl
+	wlsunset
+	wl-clipboard
+	hyprpicker
+	blueberry
     ];
   };
+
+  fonts.fonts = with pkgs; [
+    nerdfonts
+  ];
 
   system.stateVersion = "23.05";
 }
